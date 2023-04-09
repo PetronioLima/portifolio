@@ -1,0 +1,19 @@
+:root {
+    --bg: whitesmoke;
+    --ftFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --ftColor: green;
+    --hfColor: orangered;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    text-align: center;
+    font-family: var(--ftFamily)
+}
