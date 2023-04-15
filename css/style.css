@@ -38,4 +38,6 @@ footer {
 
 .nav-menu {
     float: left;
+    align-items: center;
+    text-align: center;
 }
