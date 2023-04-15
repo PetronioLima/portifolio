@@ -61,3 +61,10 @@ a.link:active {
     color: var(--hfColor);
     text-decoration: none;
 }
+
+.content {
+    text-align: justify;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
