@@ -2,7 +2,7 @@
     --bg: whitesmoke;
     --ftFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     --ftColor: green;
-    --hfColor: orangered;
+    --hfColor: rgb(255, 94, 36);
 
 }
 
@@ -15,5 +15,27 @@
 body {
     background-color: var(--bg);
     text-align: center;
-    font-family: var(--ftFamily)
+    font-family: var(--ftFamily);
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: var(--hfColor);
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: var(--hfColor);
+    text-align: center;
+}
+
+.nav-menu {
+    float: left;
 }
