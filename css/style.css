@@ -25,12 +25,6 @@ header {
     background-color: var(--hfColor);
 }
 
-section::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 footer {
     background-color: var(--hfColor);
     text-align: center;
