@@ -30,6 +30,7 @@ header, h1 {
 footer {
     background-color: var(--hfColor);
     text-align: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;
