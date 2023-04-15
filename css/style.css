@@ -16,6 +16,7 @@ body {
     background-color: var(--bg);
     text-align: center;
     font-family: var(--ftFamily);
+    display: flex;
     align-items: center;
 }
 
