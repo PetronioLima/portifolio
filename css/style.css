@@ -38,3 +38,22 @@ footer {
     align-items: center;
     text-align: center;
 }
+
+table, tr, th, td {
+    padding: 5px;
+}
+
+a {
+    color: var(--hfColor);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ftColor);
+    text-decoration: none;
+}
+
+a:active {
+    color: var(--hfColor);
+    text-decoration: none;
+}
